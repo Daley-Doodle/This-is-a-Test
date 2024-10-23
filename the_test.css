@@ -1,0 +1,184 @@
+@charset "utf-8";
+/* CSS Document */
+html {
+	background-color: #111;
+	color: #bbb;
+	text-align: center;
+	background-image: url("asfalt-light.png");
+	font-size: 20px;
+}
+
+/* red words */
+.highlight {
+	color:red;
+}
+
+/* the nav bar */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  display: inline-block;
+  postion: relative;
+  text-align: center;
+}
+
+nav li {
+  float: left;
+  border-right: 1px solid #bbb;
+  border-left: 1px solid #bbb;
+  text-align: center;
+}
+
+nav li a {
+  display: inline-block;
+  position: relative;
+  color: #bbb;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navlinks {
+	border: 10px solid black;
+	width: 1000px;
+	padding: 6px;
+	margin: auto;
+}
+
+/* the decision links */
+a.decision:link {
+	text-decoration: none;
+  	float: left;
+	text-align: center;
+  	padding: 14px 16px;
+ 	display: inline-block;
+ 	position: relative;
+	color: #bbb;
+}
+
+a.decision:hover {
+  background-color: #111;
+  float: left;
+  text-align: center;
+  padding: 14px 16px;
+  display: inline-block;
+  position: relative;
+}
+
+a.decision:visited {
+	color: red;
+}
+
+a.decision:active {
+	color: #111;
+}
+
+body {
+	margin: 20px;
+}
+
+/* the big red button */
+#big_red_button {
+	background-color: red;
+	border: none;
+	color: black;
+	padding: 65px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 25px;
+	margin: 4px 2px;
+	border-radius: 50%;
+}
+
+#no_border {
+	border: none;
+}
+
+/* more decision link formatting */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  display: inline;
+}
+
+li {
+  float: left;
+  border-right: 1px solid #bbb;
+  border-left: 1px solid #bbb;
+}
+
+/* the big red button text */
+.button_text {
+  text-align: center;
+  padding: 20;
+  text-decoration: none;
+  border: none;
+  font-size: 25px;
+  margin: 4px 2px;
+  border-radius: 50%;
+  color: red; 
+}
+
+.start {
+	text-decoration: none;
+	color: red;
+}
+
+.text {
+	border: 10px solid #050505;
+	width: 600px;
+	float: left;
+	padding: 6px;
+	margin: 75px 50px 100px 200px;
+}
+
+/* the image on the index page */
+img {
+	height: 400px;
+	margin: 75px -75px 0px 225px;
+	float: left;
+	border: 15px solid #050505;
+}
+
+/* h1 */
+h1 {
+	font-size: 50px;
+}
+
+/* links */
+a:hover {
+	background-color: #111;
+}
+
+a:visited {
+	color: red;
+}
+
+/* the endings */
+#end1 {
+	border: 10px solid #bbb;
+	width: 1000px;
+	padding: 6px;
+	margin: auto;
+}
+
+#end2 {
+	border: 10px solid #050505;
+	width: 1000px;
+	padding: 6px;
+	margin: auto;
+}
+
+#end3 {
+	border: 10px solid red;
+	width: 1000px;
+	padding: 6px;
+	margin: auto;
+}
